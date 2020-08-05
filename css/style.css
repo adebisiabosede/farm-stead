@@ -1,0 +1,163 @@
+.navbar ul li a{
+color: white;    
+text-decoration: none;
+}
+.navbaricon{
+    background-color: black;
+    color: white;
+}
+.navbaricon .navbar-toggler-icon{
+    /* color: white; */
+    background-color: white;
+}
+
+.background{
+    
+
+    filter: alpha;
+    background-image: url(../pictures/bananas.jpg);
+    background-size: 100%;
+    color:white;
+    font-size: 1.2em; 
+    width: 100%;
+    height: 500px;
+
+   }
+   .background .gra{
+       background-image: linear-gradient(rgba(12, 3, 3, 0.808), rgba(7, 7, 7, 0.2));
+       background-size: 100%
+   }
+.circle{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border:green 3px solid;
+    position: relative;
+
+    
+}
+.content{
+    position: absolute;
+    text-align: center;
+}
+.dropbtn {
+    background-color:#343a40;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(27, 27, 27, 0.603);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn  .ul{
+    background-color: #3e8e41;
+}
+.carousel-content img{
+width:100%;
+height: 400px;
+}
+.carousel-caption{
+    background-image:linear-gradient(rgba(43, 151, 61, 0.808), rgba(7, 7, 7, 0.2));
+
+}
+.card-img-top-{
+    padding-right:20%;
+    margin-right: 20%;
+
+}
+.morefarm{
+    padding-left: 40%;
+    padding-right: 30%;
+}
+.contact{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(105, 104, 105, 0.616);
+    font-size: 8em;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+@media only screen and (max-width:768px){
+    .contact{
+        font-size: 5em;
+    }
+}
+.colo{
+    color: palevioletred;
+    font-size:0.2em;
+    
+}
+.down{
+    background-color:rgb(122, 116, 118);
+    color: white;
+}
+.down p{
+    padding:2px;
+    margin:2px; 
+    font-size:1.0em;
+}
+.sponbackground{
+    
+
+    filter: alpha;
+    background-image: url(../pictures/f20.jpg);
+    background-size:100%;
+    font-size: 1.2em; 
+    width: 100%;
+    height: 200px;
+
+   }
+   .sponbackground .gr{
+       background-image: linear-gradient(rgba(56, 54, 54, 0.979), rgba(94, 88, 88, 0.89));
+       width: 100%;
+       height: 200px;
+       background-size: 100%;
+   }
+   .reg{
+        filter: alpha;
+    background-imae: url(../pictures/f25.jpg);
+    background-size:100%;
+    font-size: 1.2em; 
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+
+   }
+   .re .lo{
+       background-image: linear-gradient(rgba(56, 54, 54, 0.979), rgba(94, 88, 88, 0.89));
+       width: 100%;
+       height: 600px;
+       background-size: 70%;
+   }
+   .logg img{
+       margin-top: 50px;
+     margin-left: 120px;
+     margin-right: 50px;
+   }
